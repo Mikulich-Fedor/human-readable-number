@@ -19,5 +19,4 @@ module.exports = function toReadable (number) {
         result += numberDecArray[Math.trunc(ten / 10) - 1] + " " + ((ten%10) ? numberOneArray[ten % 10] : "" ) 
     }
     return result.trim();
-
 }
